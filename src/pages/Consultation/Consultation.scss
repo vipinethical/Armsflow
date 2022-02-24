@@ -1,0 +1,6 @@
+@import "../../styles/sass/partials/mixin";
+@import "../../styles/sass/partials/variables";
+
+.head-text {
+  @include text-decoration($text-color);
+}

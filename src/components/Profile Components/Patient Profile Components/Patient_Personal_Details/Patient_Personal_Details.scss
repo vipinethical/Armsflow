@@ -1,0 +1,75 @@
+@import "../../../../styles/sass/partials/classes";
+@import "../../../../styles/sass/partials/mixin";
+@import "../../../../styles/sass/partials/variables";
+
+.patient-personal-details-form {
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px 40px;
+    margin-bottom: 50px;
+    div {
+      text-align: start;
+      input {
+        @extend .input;
+      }
+      label {
+        color: $label;
+      }
+    }
+    .file-upload-div {
+      grid-column: 3/4;
+      grid-row: 3/5;
+      input[type="file"] {
+        display: none;
+      }
+      .input-file {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px 4px lightgrey;
+        font-size: 100px;
+        svg {
+          path {
+            width: 100px;
+          }
+          color: blue;
+        }
+      }
+    }
+    h6 {
+      grid-column: 1 / span 2;
+      font-weight: 600;
+    }
+    div:last-child {
+      grid-column: 1 / span 2;
+      justify-self: center;
+      textarea {
+        border: none;
+        width: 608px;
+        padding: 15px 40px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px 4px lightgrey;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        margin-top: 50px;
+        display: block;
+        margin: auto;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+        background-color: $lab-background-color;
+        padding: 10px 20px;
+        box-shadow: 2px 2px 10px 4px lightgrey;
+      }
+    }
+  }
+}

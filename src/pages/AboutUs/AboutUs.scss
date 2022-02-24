@@ -1,0 +1,356 @@
+@import "../../styles/sass/partials/variables";
+
+.aboutus-icon {
+  border: white;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  img {
+    margin-top: 15px;
+  }
+}
+
+.aboutUs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: 100px 150px 100px;
+  grid-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  .child-grid-1 {
+    background-color: $doc-background-color;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.3),
+      0px 13px 27px -5px rgba(50, 50, 93, 0.25);
+    p {
+      margin-top: 25px;
+    }
+  }
+  .child-grid-2 {
+    grid-column: span 2/-1;
+    grid-row: span 2/3;
+    img {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .child-grid-3 {
+    grid-row: span 2/4;
+    img {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .child-grid-4 {
+    background-color: $doc-background-color;
+    color: white;
+    grid-column: span 2/-1;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.3),
+      0px 13px 27px -5px rgba(50, 50, 93, 0.25);
+    p {
+      margin-top: 30px;
+    }
+  }
+}
+
+.aboutUs-details {
+  text-align: start;
+  h3 {
+    font-weight: 700;
+  }
+  p {
+    margin: 50px 0px;
+    color: #202020;
+  }
+  button {
+    background-color: $doc-background-color;
+    border: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 25px;
+    color: white;
+    width: 158px;
+    height: 48px;
+    box-shadow: 2px 6px 25px rgba(0, 180, 216, 0.25),
+      0px 3px 8px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.service-provided-section {
+  h1 {
+    font-weight: 700;
+    margin: 100px 0 30px 0;
+  }
+  .service-provided-grid-container {
+    display: grid;
+    grid-gap: 60px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 430px);
+    grid-template-rows: 270px;
+    .service-provide-cart {
+      color: $text-color;
+      border-radius: 25px;
+      padding: 30px 0;
+      align-self: center;
+    }
+    .service-provide-cart-1 {
+      background-color: $doc-background-color;
+      color: $text-color;
+      box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+    }
+    .service-provide-cart-2 {
+      background-color: $lab-background-color;
+      box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+//mission and vision
+
+.missionNVission-container {
+  position: relative;
+  margin: 100px 70px;
+  h1 {
+    text-align: start;
+    font-weight: 700;
+  }
+  .missionNVission-sideIMG {
+    height: 390px;
+    width: 600px;
+    position: relative;
+    background-color: $lab-background-color;
+    border-radius: 20px;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+  .missionNVission-card-container {
+    display: grid;
+    grid-template-columns: 390px 390px;
+    grid-template-rows: 280px;
+    position: absolute;
+    grid-gap: 30px;
+    left: 300px;
+    top: 126px;
+    .missionNVission-card {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+      text-align: start;
+      padding: 30px 50px;
+      align-self: center;
+      border-radius: 20px;
+      h4 {
+        font-size: 25px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 15px;
+        margin-top: 30px;
+      }
+    }
+  }
+  .missionNVission-border {
+    border-radius: 20px;
+    right: 70px;
+    z-index: -10;
+    height: 350px;
+    position: absolute;
+    width: 680px;
+    bottom: 20px;
+    border: 1px solid #dedede;
+  }
+}
+
+.why-choose-armsflow-main {
+  h1 {
+    text-align: start;
+    margin: 0 70px;
+    font-weight: 700;
+  }
+  .why-choose-armsflow-container {
+    background-color: $doc-background-color;
+    position: relative;
+    height: 320px;
+    .why-choose-armsflow-section {
+      margin: 100px 70px;
+      text-align: start;
+      display: grid;
+      grid-template-columns: 450px 1fr;
+      .why-choose-armsflow-img-section {
+        img {
+          width: 368px;
+          height: 265px;
+          border-radius: 20px;
+          position: absolute;
+          top: -50px;
+        }
+        .why-choose-armsflow-img-border {
+          width: 410px;
+          height: 305px;
+          border: 1px solid white;
+          border-radius: 20px;
+          position: absolute;
+          left: 48px;
+          top: -67px;
+        }
+      }
+      .why-choose-armsflow-benefits-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px 100px;
+        margin-top: 50px;
+        justify-content: center;
+        color: white;
+        .why-choose-armsflow-benefits-card {
+          display: grid;
+          grid-template-columns: 100px 1fr;
+          align-content: center;
+          justify-content: center;
+          .circle {
+            border: 1px dashed white;
+            width: 80px;
+            height: 80px;
+            // padding: 6px 3px;
+            border-radius: 50px;
+            h3 {
+              color: #00b4d8;
+              background-color: white;
+              width: 70px;
+              height: 70px;
+              margin: 4px;
+              border-radius: 100%;
+              padding: 17px;
+              span {
+                margin: 15px 0 0 11px;
+              }
+            }
+          }
+          p {
+            align-self: center;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #ffffff;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Contact Us Style
+
+.contactUs-main {
+  position: relative;
+  margin: 100px 70px;
+  .contactUs-Img-Section {
+    position: relative;
+    background-color: $doc-background-color;
+    height: 350px;
+    width: 998px;
+    left: 338px;
+    border-radius: 20px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .contactUs-info-Section {
+    h1 {
+      font-weight: 700;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 44px;
+    }
+    position: absolute;
+    top: 20px;
+    width: 435px;
+    text-align: start;
+    left: 120px;
+    .contactUs-Info {
+      box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+      display: grid;
+      grid-template-columns: 380px;
+      background-color: white;
+      border-radius: 20px;
+      //   grid-template-rows: repeat(3, 100px);
+      padding: 20px 30px;
+      h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+      }
+      .contactUs-Info-content {
+        display: grid;
+        grid-template-columns: 145px 1fr;
+        align-items: center;
+        h3 {
+          align-self: center;
+        }
+        p {
+          align-self: center;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .contactUs-feedback-Section {
+    position: absolute;
+    width: 450px;
+    top: 80px;
+    right: 150px;
+    h3 {
+      font-weight: 600;
+      text-align: center;
+    }
+    .contactUs-feedback-input {
+      box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+      background-color: white;
+      height: 150px;
+      border-radius: 20px;
+    }
+  }
+}

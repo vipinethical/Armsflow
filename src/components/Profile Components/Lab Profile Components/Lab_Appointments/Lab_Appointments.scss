@@ -1,0 +1,21 @@
+.appointment-table-wrapper {
+  background-color: #fdf0ed;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  color: #606f89;
+  table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+    tbody {
+      tr {
+        background-color: white;
+        td {
+          padding: 10px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}

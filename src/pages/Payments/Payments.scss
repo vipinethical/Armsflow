@@ -1,0 +1,106 @@
+@import "../../styles/sass/partials/classes";
+@import "../../styles/sass/partials/mixin";
+@import "../../styles/sass/partials/variables";
+
+.payment-grid-container {
+  display: grid;
+  grid-template-columns: 68% 30%;
+  grid-gap: 23px;
+  text-align: start;
+  .payment-main {
+    box-shadow: 0px 10px 20px 6px lightgrey;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    overflow: hidden;
+    .payment-method-btn {
+      display: flex;
+      flex-direction: column;
+      background-color: #f9f9f9;
+
+      a {
+        padding: 20px;
+        background-color: #f9f9f9;
+        width: 308px;
+        height: 80px;
+        border: 1px solid #e6e6e6;
+        display: flex;
+        font-weight: 500;
+        color: #252b42;
+        justify-content: space-between;
+        &:first-child {
+          border-top: none;
+          border-left: none;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: #00b4d8;
+          color: white;
+          border: 1px solid #00b4d8;
+        }
+      }
+    }
+    .payment-method-component {
+    }
+  }
+  .payment-details {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    .payment-details-header {
+      p {
+        padding: 30px 0 5px 20px;
+        margin: 0;
+        font-weight: 500;
+      }
+    }
+    .payment-details-text-wrapper {
+      border-top: 1px solid lightgrey;
+      padding: 10px 20px;
+
+      .payment-details-text {
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        .doctor-name {
+          font-weight: 600;
+          margin: 0;
+        }
+        .consultation-fees {
+          display: flex;
+          justify-content: space-between;
+          p::last-child {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .total-fees-btn {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      margin: 0 10px;
+      font-weight: 500;
+      color: white;
+      background-color: $doc-background-color;
+      border-radius: 10px;
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+.paynow-btn {
+  margin-top: 100px;
+  button {
+    border: none;
+    background-color: #40bb15;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 50px;
+  }
+}

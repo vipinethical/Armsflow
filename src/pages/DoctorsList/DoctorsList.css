@@ -1,0 +1,237 @@
+.srchbar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.back {
+  display: flex;
+  width: 82%;
+  height: 30px;
+
+  text-align: center;
+}
+.searchbtns {
+  display: flex;
+  width: 82%;
+  height: 70px;
+  padding: 8px 0px 8px 0px;
+}
+.srch {
+  height: 56px;
+  width: 78%;
+  padding: 14px;
+  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding-inline: 60px;
+  box-shadow: none;
+}
+.slctbox {
+  height: 56px;
+  padding: 14px;
+
+  border: 1px solid #dfe1e5;
+  padding-inline: 10px;
+}
+.btn-search {
+  height: 56px;
+  width: 56px;
+  background-color: #00b4d8;
+  border: 0;
+  border-radius: 3px 3px 3px 0px;
+}
+.main {
+  display: flex;
+  width: 100%;
+
+  height: 1600px;
+  justify-content: center;
+}
+.body-container {
+  display: flex;
+  width: 82%;
+
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.filterbox {
+  display: flex;
+  flex-direction: column;
+  width: 386px;
+  height: 1440px;
+  border-radius: 10px;
+  box-shadow: 0px 13px 10px -2px rgba(1, 1, 1, 0.15);
+  border: 1px solid #dfe1e5;
+}
+
+.doclist {
+  display: flex;
+  width: 68%;
+  flex-direction: column;
+}
+.sort {
+  width: 90%;
+  height: 210px;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-inline: 40px;
+  padding-top: 20px;
+  border: 1px solid #dfe1e5;
+  justify-content: space-evenly;
+}
+.filter {
+  width: 90%;
+  height: 310px;
+
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-inline: 40px;
+  padding-top: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+.speciality {
+  width: 90%;
+  height: 832px;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-inline: 40px;
+  padding-top: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+.doctor_div {
+  width: 820px;
+  height: 272px;
+  margin: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 1px solid #dfe1e5;
+  border-radius: 10px;
+  box-shadow: 0px 13px 10px -2px rgba(1, 1, 1, 0.15);
+  padding: 10px;
+}
+.img_div {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px 20px 20px 20px;
+  position: relative;
+}
+.docimg {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  position: absolute;
+}
+.docinfo {
+  width: 50%;
+  height: 100%;
+  margin-left: 20px;
+  padding: 20px 10px 10px 20px;
+  text-align: left;
+}
+.rating {
+  color: var(--yellow);
+  font-size: 25px;
+}
+.Docname_styling {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+}
+.degreetext {
+  color: var(--blue);
+  float: left;
+  padding-right: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.ptag {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 0px;
+  letter-spacing: 0.2px;
+  color: rgba(32, 32, 32, 0.5);
+  margin-top: 24px;
+}
+.lastdiv {
+  width: 40%;
+  height: 100%;
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.price_style {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: rgba(32, 32, 32, 0.5);
+  margin-right: 20px;
+}
+.btnprofile {
+  background: white;
+  color: var(--blue);
+  font-weight: 600;
+  width: 207px;
+  height: 48px;
+  border: 3px solid #00b4d8;
+  border-radius: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+}
+.btnbook {
+  background: var(--blue);
+  color: white;
+  width: 207px;
+  height: 48px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 2rem;
+  box-shadow: 3px 5px 25px rgba(0, 180, 216, 0.1),
+    1px 3px 15px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+}

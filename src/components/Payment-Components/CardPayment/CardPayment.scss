@@ -1,0 +1,50 @@
+@import "../../../styles/sass/partials/classes";
+@import "../../../styles/sass/partials/mixin";
+@import "../../../styles/sass/partials/variables";
+
+.card-component-main {
+  padding: 35px;
+  h4 {
+    font-weight: 600;
+  }
+  .card-payment-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label {
+      margin-bottom: 13px;
+      position: relative;
+      img {
+        width: 70px;
+        right: 0;
+        bottom: -4px;
+        position: absolute;
+      }
+      span {
+        color: #969595;
+        margin-left: 15px;
+      }
+      input {
+        width: 100%;
+        display: block;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        padding: 10px 10px;
+        box-shadow: none;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .expire-cvc-input {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      label {
+        justify-self: center;
+        align-self: center;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #0a142f;
+    color: white;
+    padding: 6% 9%;
+    p {
+        font-size: small;
+        color: #ffffffbf;
+        margin-top: 3%;
+    }
+    h2 {
+        font-weight: 600;
+    }
+}
+
+.footer-container {
+    display: flex;
+    text-align: left;
+
+    h6 {
+        margin-bottom: 2rem;
+    }
+
+    a {
+        color: #ffffffbf;
+        display: block;
+        margin-bottom: 0.8rem;
+        font-size: 0.8rem;
+        transition: 0.15s;
+    }
+
+    ul {
+        @include flex-between();
+        flex: 1;
+        margin: 0 5% 4%;
+    }
+
+    .btn {
+        color: white;
+    }
+
+    .social-padding {
+        padding-left: 1rem;
+    }
+}
+
+.social {
+    color: white;
+    &:hover {
+        color: var(--red);
+    }
+}
+
+.contact {
+    span {
+        color: #ffffffbf;
+        font-size: 0.8rem;
+    }
+    a {
+        display: inline;
+        font-size: 1rem;
+        color: white;
+        margin: 0 1rem;
+        font-weight: 500;
+        user-select: text;
+    }
+}

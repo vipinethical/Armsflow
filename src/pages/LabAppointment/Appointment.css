@@ -1,0 +1,348 @@
+.searchbar_Lab {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.back_Lab {
+  display: flex;
+  width: 82%;
+  height: 30px;
+
+  text-align: center;
+}
+.searchbtns_Lab {
+  display: flex;
+  width: 82%;
+  height: 70px;
+  padding: 0px 0px 8px 0px;
+}
+.srch_Lab {
+  height: 56px;
+  width: 64%;
+  padding: 14px;
+  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding-inline: 60px;
+  box-shadow: none;
+  outline: none;
+}
+.slctbox_Lab {
+  height: 56px;
+  padding: 14px;
+
+  border: 1px solid #dfe1e5;
+  padding-inline: 10px;
+}
+.btn-search_Lab {
+  height: 56px;
+  width: 56px;
+  background-color: #ee6c4d;
+  border: 0;
+  border-radius: 3px 3px 3px 0px;
+}
+.cart_Lab {
+  margin-left: 40px;
+  height: 56px;
+  width: 100px;
+  border: 1px solid #dfe1e5;
+  border-radius: 3px 3px 3px 0px;
+  font-weight: 500;
+  background-color: #ffffff;
+}
+.info {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  flex-direction: row;
+  padding: 10px 160px 10px 100px;
+  justify-content: space-between;
+}
+.info_box {
+  height: 300px;
+  width: 372px;
+  margin: 11px 10px 0px 100px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+}
+.lab_name {
+  display: flex;
+  flex-direction: row;
+  background-color: #ee6c4d;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.img_Lab {
+  background-color: white;
+  border-radius: 100%;
+  height: 80px;
+  margin: 10px;
+}
+.name-rating {
+  text-align: justify;
+  line-height: 0;
+  padding: 20px 0px 0px 0px;
+}
+.lab_info {
+  width: 100%;
+  height: 100%;
+  padding: 40px 0px 0px 60px;
+  text-align: left;
+  font-family: system-ui;
+  position: relative;
+}
+.icon_info {
+  position: absolute;
+  left: 30px;
+}
+.switchdiv {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: end;
+  padding: 15px;
+  width: 40%;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  content: "Home Visit Clinic";
+  appearance: none;
+  color: gray;
+  font-weight: 600;
+  width: max-content;
+  border: 1px solid #d9d9d9;
+  margin-top: 10px;
+  border-radius: 2rem;
+  padding: 0.9rem 2rem 1rem;
+  outline: none;
+  width: 427px;
+  height: 61px;
+  transition: 0.3s;
+  position: relative;
+}
+input[type="checkbox"]::before {
+  content: "Home Visit";
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  background: #ee6c4d;
+  color: white;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+  height: 60px;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.9rem 2rem 1rem;
+  width: 225px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+input[type="checkbox"]:checked:before {
+  transform: translate(200px);
+  background-color: #ee6c4d;
+  content: "Clinic";
+  color: white;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+}
+input[type="checkbox"]::after {
+  background-color: white;
+  color: #dedede;
+  content: "Clinic";
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 250px;
+}
+input[type="checkbox"]:checked::after {
+  background-color: white;
+  color: #dedede;
+  content: "Home Visit";
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 25px;
+}
+input[type="checkbox"]:checked {
+  border-color: #ee6c4d;
+}
+
+.Test_Lab {
+  height: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 160px 10px 200px;
+  text-align: left;
+}
+.Test_box {
+  height: 300px;
+  width: 100%;
+  margin: 11px 0px 0px 0px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+}
+.Test_name {
+  background-color: #ee6c4d;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px;
+  border: 1px solid #ee6c4d;
+}
+.Test_details {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+}
+.img_info {
+  padding: 8px;
+}
+.View_details {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-family: system-ui;
+}
+.btns_test {
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.quantity {
+  height: 50px;
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  border-radius: 3px;
+  margin-right: auto;
+  border: 1px solid #dfe1e5;
+}
+.addmore {
+  width: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #dfe1e5;
+}
+.btn_price {
+  border-radius: 2rem;
+  color: #ee6c4d;
+  background-color: #ffffff;
+  border: 1px solid #ee6c4d;
+  width: 130px;
+  height: 50px;
+  margin: 0px 10px 0px 10px;
+}
+.btn_add {
+  border-radius: 2rem;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #ee6c4d;
+  border: 0;
+  width: 130px;
+  height: 50px;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 33%);
+}
+.schedule {
+  height: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 160px 10px 200px;
+  text-align: left;
+}
+.month_date {
+  width: 60%;
+  height: 90px;
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.date-appointment {
+  height: 100%;
+  width: 70px;
+  background-color: #ee6c4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ee6c4d;
+  color: #ffffff;
+}
+.date-appointment:focus {
+  color: #ee6c4d;
+  background-color: #ffffff;
+}
+.timing_lab {
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.time_schedule {
+  height: 200px;
+  width: 600px;
+  margin-left: 240px;
+  display: flexbox;
+}
+.btn_time {
+  border-radius: 2rem;
+  color: #ee6c4d;
+  background-color: #ffffff;
+  border: 1px solid #ee6c4d;
+  width: 130px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.btn_time:focus {
+  background-color: #ee6c4d;
+  color: #ffffff;
+}
+.btn_paynow {
+  border-radius: 2rem;
+  background-color: #ee6c4d;
+  color: #ffffff;
+  border: 1px solid #ee6c4d;
+  width: 220px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.paynow {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 160px 10px 200px;
+  text-align: left;
+}

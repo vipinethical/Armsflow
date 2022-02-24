@@ -1,0 +1,61 @@
+@import "../../../styles/sass/partials/mixin";
+@import "../../../styles/sass/partials/variables";
+
+.cod-component-main {
+  padding: 35px;
+  .code-main {
+    padding: 0px 20px;
+    .code-box {
+      width: 100%;
+      height: 100px;
+      border: 1px solid lightgrey;
+      border-radius: 7px;
+      position: relative;
+      span {
+        position: absolute;
+        font-weight: 600;
+        color: grey;
+        font-size: 25px;
+      }
+      span:first-child {
+        left: 20px;
+      }
+      span:nth-child(2) {
+        left: 110px;
+        top: 30px;
+      }
+      span:nth-child(3) {
+        right: 120px;
+        top: 10px;
+      }
+      span:last-child {
+        right: 30px;
+        top: 25px;
+      }
+    }
+    .code-input-part {
+      margin: 20px 0;
+      label {
+        span {
+          color: lightgrey;
+          font-size: 15px;
+          margin-left: 10px;
+        }
+        input {
+          border: 1px solid lightgrey;
+          width: 100%;
+          height: 20px;
+          color: black;
+          padding: 17px 10px;
+          border-radius: 5px !important;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    span {
+      margin: 20px 20px;
+    }
+  }
+}

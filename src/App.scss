@@ -1,0 +1,114 @@
+//using this app.scss as main style file
+
+.App {
+  --red: #ee6c4d;
+  --yellow: #ffbc2e;
+  --blue: #00b4d8;
+  text-align: center;
+  user-select: none;
+}
+
+.container-padding {
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+//section tag can be used whenever flex is needed
+section {
+  display: flex;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: inherit;
+  }
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+figure {
+  margin: 0;
+}
+
+.btn,
+.btn-light,
+.navbar-toggler {
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+// styling for Doctor Profile, Lab Profile & Patient Profile
+
+//for styling the profile page doctors lab and patient
+.profile-main-section {
+  text-align: start;
+  .profile-text {
+    font-weight: 700;
+  }
+  .switch-component-section {
+    margin: 20px 0;
+  }
+  a {
+    margin: 10px;
+  }
+}
+
+// for styling the round img inside the profile
+
+.verified-img-part {
+  .verified-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+  }
+  p {
+    color: green;
+    margin: 0 0 0 100px;
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #ee6c4d;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

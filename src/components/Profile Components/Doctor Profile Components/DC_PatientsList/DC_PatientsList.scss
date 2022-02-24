@@ -1,0 +1,32 @@
+@import "../../../../styles/sass/partials/classes";
+@import "../../../../styles/sass/partials/mixin";
+@import "../../../../styles/sass/partials/variables";
+
+.dc-single-cart-patients-section-devider {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgrey;
+
+  p {
+    margin: 0;
+    align-self: flex-end;
+  }
+  .new-old-btn {
+    border: 2px solid $doc-color;
+    border-radius: 7px;
+    margin-bottom: 3px;
+    button {
+      border: none;
+    }
+    .new-old-btn1 {
+      background-color: $doc-background-color;
+      color: white;
+      border-radius: 4px;
+    }
+    .new-old-btn2 {
+      background-color: white;
+      color: $doc-color;
+      border-radius: 4px;
+    }
+  }
+}

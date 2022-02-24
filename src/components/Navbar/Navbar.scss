@@ -1,0 +1,273 @@
+.navbar {
+  padding: 1% 9%;
+}
+
+.navbar-brand {
+  img {
+    width: 4rem;
+    padding: 5% 0;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+}
+
+.dropdown-item {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: transparent;
+    color: #ffbc2e;
+  }
+  &:hover {
+    color: grey;
+  }
+
+  border: 0.1rem solid transparent;
+  transition: 0.15s;
+  max-width: 10rem;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.login-btn {
+  color: var(--yellow);
+  border: 0.1rem solid var(--yellow);
+  border-radius: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  &:hover {
+    color: white;
+    background-color: var(--yellow);
+  }
+}
+
+.user-login {
+  position: relative;
+  width: 1152px;
+  height: 501px;
+
+  background: #ffffff;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-6 h3 {
+  position: absolute;
+  width: 415px;
+  height: 44px;
+  left: 95px;
+  top: 7.77px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+
+  text-align: center;
+
+  color: #202020;
+}
+.link-register {
+  left: 190px;
+  top: 89.77px;
+  color: #00b4d8;
+  text-decoration: underline;
+  font-family: Montserrat;
+
+  font-size: 14px;
+}
+
+.log-a {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  left: 80px;
+  top: 69px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #202020;
+}
+.plus {
+  position: absolute;
+  width: 21px;
+  height: 42px;
+  left: 1111.45px;
+  top: 7.77px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #202020;
+
+  transform: rotate(-45deg);
+}
+.form-1 {
+  position: absolute;
+  width: 445px;
+  height: 214px;
+  left: 120px;
+  top: 133px;
+}
+.btn-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  position: absolute;
+  width: 142px;
+  font-weight: 500;
+  height: 48px;
+  left: 105px;
+  top: 265px;
+  border: none;
+  background: #ffbc2e;
+  color: #fff;
+  border-radius: 25px;
+}
+.google-box {
+  position: absolute;
+  width: 445px;
+  height: 48px;
+  left: 20px;
+  top: 129px;
+
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.google-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  font-size: 12px;
+  position: absolute;
+  width: 158px;
+  left: 16px;
+  top: 14px;
+  bottom: 14px;
+}
+input {
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: none;
+  padding: 2%;
+  &:focus {
+    outline: none;
+  }
+}
+.g-icon {
+  position: absolute;
+  width: 18.45px;
+  height: 19.33px;
+  left: 388.27px;
+  top: 6.27px;
+
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+}
+
+.img-login {
+  position: absolute;
+  width: 440px;
+  height: 540px;
+  left: 592px;
+  top: 12px;
+}
+.log-b {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  left: 320px;
+  top: 69px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #202020;
+}
+.link-lab {
+  color: red;
+  text-decoration: underline;
+  font-family: Montserrat;
+
+  font-size: 14px;
+}
+.log-c {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  left: -25px;
+  top: 49px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #202020;
+}
+.link-g {
+  color: #ffbc2e;
+  text-decoration: underline;
+  font-family: Montserrat;
+  text-decoration: none;
+  font-size: 14px;
+}
+.log-d {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  left: -30px;
+  top: 79px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.log-e {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  left: -70px;
+  top: 49px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #202020;
+}

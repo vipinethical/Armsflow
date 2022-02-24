@@ -1,0 +1,54 @@
+@import "../../../../styles/sass/partials/mixin";
+@import "../../../../styles/sass/partials/variables";
+
+.availability-section {
+  text-align: start;
+  margin: 20px 0;
+  p {
+    font-weight: 600;
+  }
+  p:nth-child(2),
+  p:nth-child(3) {
+    margin-top: 20px !important;
+  }
+  button {
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 3px 2px 8px 2px lightgrey;
+  }
+  .test-preferences-btn {
+    button {
+      padding: 10px 25px;
+    }
+  }
+  .operating-days-btn {
+    button {
+      font-weight: 600;
+    }
+  }
+  .time-input {
+    input {
+      border: none;
+      padding: 10px;
+      &:focus {
+        outline: none;
+      }
+    }
+    span {
+      font-weight: 500;
+      font-size: 30px;
+      margin: 0px 13px 0px 13px;
+    }
+  }
+  .edit-btn {
+    background-color: $lab-background-color;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-weight: 600;
+    margin: 50px 0 50px 175px;
+  }
+}

@@ -1,0 +1,56 @@
+.inputholder {
+  height: 56px;
+  width: 800px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  padding-inline: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.label {
+  display: inline-block;
+  width: 180px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.inputholder_add {
+  height: 56px;
+  width: 800px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  padding-inline: 20px;
+  margin-left: 240px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.inputholder_other {
+  height: 100px;
+  width: 800px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  padding-inline: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.savebtn {
+  border-radius: 2rem;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #ee6c4d;
+  border: 0;
+  width: 130px;
+  height: 50px;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 33%);
+  margin-left: 240px;
+}
+.Close_icon {
+  margin-left: 750px;
+}

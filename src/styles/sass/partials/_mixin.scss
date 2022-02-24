@@ -1,0 +1,5 @@
+@mixin text-decoration($doc-color) {
+  color: $doc-color;
+  padding: 10px;
+  border: 1px solid black;
+}

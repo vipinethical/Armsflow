@@ -1,0 +1,135 @@
+.lab-onboarding {
+  .labs {
+    background: var(--red);
+    color: white;
+    h2 {
+      color: white;
+      margin-top: 80px;
+    }
+    div {
+      padding-top: 5%;
+    }
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      /* or 114% */
+      letter-spacing: 0.2px;
+      text-transform: capitalize;
+      color: #ffffff;
+      margin-top: 40px;
+    }
+    .btn_explore {
+      background: #ffffff;
+      /* Shadow 1 */
+      box-shadow: 0px 13px 10px -2px rgba(1, 1, 1, 0.15);
+      border-radius: 100px;
+      color: #ee6c4d;
+    }
+  }
+
+  .howitworks {
+    section {
+      align-items: center;
+    }
+    margin-top: 58px;
+    margin-bottom: 5%;
+    position: relative;
+
+    h2 {
+      color: black;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+    }
+    p {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      /* identical to box height, or 114% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+      text-transform: capitalize;
+    }
+    .img_vector {
+      position: absolute;
+      top: 250px;
+      left: 550px;
+    }
+    .img_vector2 {
+      position: absolute;
+      top: 250px;
+      right: 490px;
+    }
+    .img-textinfo {
+      margin-left: 165px;
+      margin-top: 84px;
+      border-radius: 1rem;
+      padding: 2rem 0 0;
+      h6 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        width: max-content;
+      }
+
+      img {
+        width: 63px;
+        height: 70px;
+        margin-bottom: 24px;
+      }
+    }
+    .btn_addtest {
+      background: #ee6c4d;
+      box-shadow: 3px 5px 25px rgba(238, 108, 77, 0.1),
+        1px 3px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 100px;
+      height: 50px;
+      width: 100px;
+      border: 1px solid #ee6c4d;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 19px;
+
+      text-align: center;
+
+      color: #ffffff;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-top: 64px;
+    }
+  }
+
+  .labs-register {
+    background: linear-gradient(white 40%, var(--red) 40%);
+    a {
+      color: var(--red);
+      font-weight: 600;
+    }
+    section {
+      align-items: flex-end;
+    }
+    margin: 3% 0;
+    padding-bottom: 5%;
+    div {
+      margin-left: 10%;
+    }
+    .white-btn {
+      box-shadow: 0px 13px 10px -2px rgba(1, 1, 1, 0.15);
+    }
+  }
+}

@@ -1,0 +1,343 @@
+.white-btn {
+  border-radius: 2rem;
+  padding: 0.9rem 2rem 1rem;
+  margin-top: 1rem;
+  &:hover {
+    background-color: #ffffffdd;
+  }
+}
+
+.carousel-item {
+  height: 25rem;
+  &:nth-child(1) {
+    background-color: var(--blue);
+    .btn {
+      color: var(--blue);
+    }
+  }
+  &:nth-child(2) {
+    background-color: var(--red);
+    .btn {
+      color: var(--red);
+    }
+  }
+  img {
+    height: 25rem;
+    margin-top: 1rem;
+  }
+}
+
+.carousel-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+  h2 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  div {
+    padding: 5rem 20% 0 0;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: 0.05rem solid white;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+  color: white;
+}
+
+ol.list {
+  list-style: none;
+  counter-reset: counter;
+  padding: 2rem 0;
+  li {
+    font-weight: 600;
+    font-size: larger;
+    counter-increment: counter;
+    margin: 2rem 0;
+    height: 3.5rem;
+    line-height: 3rem;
+    &:before {
+      content: counter(counter);
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      display: inline-block;
+      line-height: 2rem;
+      text-align: center;
+      margin-right: 2rem;
+      border: 0.1rem dashed #dedede;
+      color: var(--blue);
+      padding: 0.2rem;
+      line-height: 3rem;
+    }
+    &:nth-child(1):before {
+      background: var(--blue) content-box;
+      color: white;
+    }
+  }
+}
+
+.doctors {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  h2 {
+    color: var(--blue);
+    font-weight: 700;
+  }
+  div {
+    padding: 0 15% 0 0;
+  }
+}
+
+.labs {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  h2 {
+    color: var(--red);
+    font-weight: 700;
+  }
+  section {
+    padding: 0 15% 0 0;
+  }
+  ol li {
+    &:before {
+      color: var(--red);
+    }
+    &:nth-child(1):before {
+      background: var(--red) content-box;
+      color: white;
+    }
+  }
+}
+
+.cards-container {
+  text-align: left;
+  section {
+    justify-content: space-between;
+  }
+
+  h2 {
+    color: var(--blue);
+    font-weight: 700;
+  }
+  input {
+    height: 1rem;
+    width: 1rem;
+  }
+  label {
+    margin: 0 5rem 0 0.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+  .cards {
+    margin: 2rem;
+    height: max-content;
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      background: rgba(0, 180, 216, 0.2);
+      border-radius: 1.5rem;
+      width: 33%;
+      height: 22rem;
+    }
+  }
+  .card- {
+    margin: 3rem 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 0 0.5rem rgba(0, 0, 0, 0.25));
+    height: max-content;
+    aside {
+      position: absolute;
+      background: white;
+      left: 6rem;
+      width: 5rem;
+      height: calc(100% - 2rem);
+      z-index: -1;
+      border-radius: 1rem 0 0 1rem;
+    }
+    img {
+      border-radius: 50%;
+      margin: auto;
+      padding: 1rem;
+      background: white;
+      width: 10rem;
+    }
+    .card-text {
+      background: white;
+      padding: 2rem 4rem 2rem 2rem;
+      border-radius: 0 1rem 1rem 0;
+      height: max-content;
+      svg {
+        color: var(--yellow);
+      }
+      span {
+        font-weight: 600;
+        color: #dedede;
+        vertical-align: middle;
+        margin: 1rem;
+      }
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    h4 {
+      color: var(--blue);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    /* actually blue button */
+    .white-btn {
+      background: var(--blue);
+      color: white;
+      font-weight: 600;
+      width: max-content;
+      border: none;
+      margin-top: 1.5rem;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15),
+        5px 20px 50px rgba(186, 186, 186, 0.3);
+    }
+  }
+}
+
+.cards-container2 {
+  text-align: left;
+  section {
+    justify-content: space-between;
+  }
+
+  h2 {
+    color: var(--red);
+    font-weight: 700;
+  }
+  input {
+    height: 1rem;
+    width: 1rem;
+  }
+  label {
+    margin: 0 5rem 0 0.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+  .cards {
+    margin: 2rem;
+    height: max-content;
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      background: rgba(238, 108, 77, 0.2);
+      border-radius: 1.5rem;
+      width: 480px;
+      height: 363px;
+    }
+  }
+  .card- {
+    margin: 3rem 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0px 0 0.5rem rgba(0, 0, 0, 0.25));
+    height: max-content;
+    aside {
+      position: absolute;
+      background: white;
+      left: 6rem;
+      width: 5rem;
+      height: calc(100% - 2rem);
+      z-index: -1;
+      border-radius: 1rem 0 0 1rem;
+    }
+    img {
+      border-radius: 50%;
+      margin: auto;
+      padding: 1rem;
+      background: white;
+      width: 10rem;
+    }
+    .card-text {
+      background: white;
+      padding: 2rem 4rem 2rem 2rem;
+      border-radius: 0 1rem 1rem 0;
+      height: max-content;
+      svg {
+        color: var(--yellow);
+      }
+      span {
+        font-weight: 600;
+        color: #dedede;
+        vertical-align: middle;
+        margin: 1rem;
+      }
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    h6 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+    }
+
+    /* actually blue button */
+    .white-btn {
+      background: var(--red);
+      color: white;
+      font-weight: 600;
+      width: max-content;
+      border: none;
+      margin-top: 1.5rem;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15),
+        5px 20px 50px rgba(186, 186, 186, 0.3);
+    }
+  }
+}
+
+.home-about {
+  background-color: var(--blue);
+  color: white;
+  margin: 3rem 0;
+  div {
+    padding: 3rem;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 0 2rem;
+  }
+  section {
+    justify-content: center;
+    font-weight: 700;
+    :not(:last-child) {
+      background: url("../../assets/images/vertical-div.svg") no-repeat right;
+    }
+    div {
+      padding: 1rem 5rem;
+      font-size: x-large;
+    }
+  }
+  .white-btn {
+    padding-top: 1rem;
+    font-weight: 500;
+  }
+}

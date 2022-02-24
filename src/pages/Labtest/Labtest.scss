@@ -1,0 +1,263 @@
+.first-bar {
+  display: flex;
+  width: 100%;
+  height: 1500px;
+  flex-direction: column;
+  align-items: center;
+}
+.back {
+  display: flex;
+  width: 82%;
+  height: 30px;
+
+  text-align: center;
+}
+.searchbtns {
+  display: flex;
+  width: 82%;
+
+  height: 70px;
+  padding: 8px 0px 8px 0px;
+}
+.srch {
+  height: 56px;
+  width: 78%;
+  padding: 14px;
+  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  padding-inline: 60px;
+  box-shadow: none;
+}
+.slctbox {
+  height: 56px;
+  padding: 14px;
+
+  border: 1px solid #dfe1e5;
+  padding-inline: 10px;
+}
+.btn-searchlab {
+  height: 56px;
+  width: 56px;
+  background-color: #ee6c4d;
+  border: 0;
+  border-radius: 3px 3px 3px 0px;
+}
+.text-123 {
+  position: absolute;
+  width: 1038px;
+  height: 262px;
+  left: 220px;
+  top: 291px;
+
+  /* light-background-color */
+
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  /* accentued-drop-shadow */
+
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.card-text1 {
+  background: white;
+  padding: 2rem 4rem 2rem 2rem;
+  border-radius: 0 1rem 1rem 0;
+  height: max-content;
+  position: absolute;
+  width: 490px;
+  height: 74px;
+  left: 303px;
+  text-align: left;
+
+  /* Small Text */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 200% */
+
+  letter-spacing: 0.2px;
+
+  /* Black Text */
+
+  color: #202020;
+  svg {
+    color: goldenrod;
+  }
+  span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px;
+
+    color: rgba(32, 32, 32, 0.5);
+  }
+  h6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px;
+
+    color: rgba(32, 32, 32, 0.5);
+  }
+}
+
+.btn-22 {
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  position: absolute;
+  width: 120px;
+  height: 44px;
+  left: 70px;
+  top: 144px;
+
+  background: #ee6c4d;
+  /* Red Drop down shadow */
+
+  box-shadow: 3px 5px 25px rgba(238, 108, 77, 0.1),
+    1px 3px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+
+  /* h6 */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* light-text-color */
+
+  color: #ffffff;
+}
+.card-text2 {
+  position: absolute;
+  width: 182px;
+  height: 192px;
+  right: 30px;
+  text-align: right;
+  top: 25px;
+
+  h6 {
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    left: 50px;
+    top: 101px;
+
+    /* h6 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.2px;
+
+    color: rgba(32, 32, 32, 0.5);
+  }
+}
+.img-box1 {
+  position: absolute;
+  width: 212px;
+  height: 178px;
+  left: 30px;
+  top: 45px;
+
+  /* Text Color */
+
+  background: #ffffff;
+  /* Strokes Effect */
+
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 10px;
+  img {
+    position: absolute;
+    width: 202px;
+    height: 56px;
+    left: 6px;
+    top: 51px;
+  }
+}
+.asfi {
+  /* h6 */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.2px;
+
+  color: #23a6f0;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 5px;
+}
+.box-333 {
+  position: absolute;
+  width: 1038px;
+  height: 262px;
+  left: 220px;
+  top: 611px;
+
+  /* light-background-color */
+
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  /* accentued-drop-shadow */
+
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+.box-444 {
+  position: absolute;
+  width: 1038px;
+  height: 262px;
+  left: 220px;
+  top: 941px;
+
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  /* accentued-drop-shadow */
+
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+.box-555 {
+  position: absolute;
+  width: 1038px;
+  height: 202px;
+  left: 220px;
+  top: 1281px;
+}
